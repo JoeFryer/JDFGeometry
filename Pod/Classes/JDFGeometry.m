@@ -19,7 +19,7 @@ CGRect JDFCGRectCentredInRect(CGRect rect1, CGRect rect2) {
 
 CGRect JDFCGRectVerticallyAlignedWithRect(CGRect rect1, CGRect rect2) {
     rect1 = CGRectStandardize(rect1);
-    rect1.origin.y = CGRectGetMinY(rect2) + ((CGRectGetWidth(rect2) - CGRectGetWidth(rect1)) / 2);
+    rect1.origin.y = CGRectGetMinY(rect2) + ((CGRectGetHeight(rect2) - CGRectGetHeight(rect1)) / 2);
     return rect1;
 }
 
