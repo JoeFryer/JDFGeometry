@@ -10,6 +10,7 @@
 
 // JDFGeometry
 #import "JDFGeometry.h"
+#import <UIView+JDFGeometry.h>
 
 
 @interface JDFViewController ()
@@ -37,4 +38,5 @@
     view2.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:view2];
 }
+
 @end
