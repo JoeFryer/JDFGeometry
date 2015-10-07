@@ -9,20 +9,16 @@
 
 Pod::Spec.new do |s|
   s.name             = "JDFGeometry"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JDFGeometry."
+  s.version          = "1.0"
+  s.summary          = "A UIView Category and collection of functions for working with CGGeometry."
   s.description      = <<-DESC
-                       An optional longer description of JDFGeometry
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        JDFGeometry is a UIView Category and collection of functions for working with CGGeometry.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JDFGeometry"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/JoeFryer/JDFGeometry"
   s.license          = 'MIT'
   s.author           = { "Joe Fryer" => "joe.d.fryer@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JDFGeometry.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/JoeFryer/JDFGeometry.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/joefryer88'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -32,7 +28,5 @@ Pod::Spec.new do |s|
     'JDFGeometry' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
