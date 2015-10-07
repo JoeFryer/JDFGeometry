@@ -1,6 +1,6 @@
 //
 //  UIView+JDFGeometry.h
-//  JDFToolkit
+//  JDFGeometry
 //
 //  Created by Joe Fryer on 25/11/2013.
 //  Copyright (c) 2013 JDF. All rights reserved.
@@ -11,7 +11,6 @@
 @interface UIView (JDFGeometry)
 
 #pragma mark - Convenience Accessors
-
 - (CGFloat)frameX;
 - (CGFloat)frameY;
 - (CGFloat)frameWidth;
@@ -23,10 +22,6 @@
 - (void)setFrameHeight:(CGFloat)frameHeight;
 
 #pragma mark - Convenience frame manipulation
-
-- (void)centerXInSuperview __attribute__ ((deprecated));
-- (void)centerYInSuperview __attribute__ ((deprecated));
-
 - (void)centerInSuperview;
 - (void)centerHorizontallyInSuperview;
 - (void)centerVerticallyInSuperview;

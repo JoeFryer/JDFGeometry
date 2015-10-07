@@ -1,6 +1,6 @@
 //
 //  UIView+JDFGeometry.m
-//  JDFToolkit
+//  JDFGeometry
 //
 //  Created by Joe Fryer on 25/11/2013.
 //  Copyright (c) 2013 JDF. All rights reserved.
@@ -62,18 +62,6 @@
 
 
 #pragma mark - Convenience frame manipulation
-
-/* Deprecated */
-- (void)centerXInSuperview
-{
-    [self centerHorizontallyInSuperview];
-}
-
-/* Deprecated */
-- (void)centerYInSuperview
-{
-    [self centerVerticallyInSuperview];
-}
 
 - (void)centerInSuperview
 {
@@ -141,7 +129,5 @@
     frame.size.height += heightDelta;
     self.frame = frame;
 }
-
-
 
 @end
