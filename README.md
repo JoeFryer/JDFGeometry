@@ -1,5 +1,8 @@
 # JDFGeometry
 
+[![Version](https://img.shields.io/cocoapods/v/JDFGeometry.svg?style=flat)](http://cocoadocs.org/docsets/JDFGeometry)
+[![License](https://img.shields.io/cocoapods/l/JDFGeometry.svg?style=flat)](http://cocoadocs.org/docsets/JDFGeometry)
+[![Platform](https://img.shields.io/cocoapods/p/JDFGeometry.svg?style=flat)](http://cocoadocs.org/docsets/JDFGeometry)
 JDFGeometry is a collection of convenience functions for working with `CGGeometry` (`CGRect` et al).
 
 ## Usage
@@ -8,7 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Copy the contents of `Pod/Classes/` to your project.
+JDFGeometry is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+    pod "JDFGeometry"
 
 ## Author
 
