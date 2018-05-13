@@ -100,6 +100,7 @@
 {
     CGRect frame = self.frame;
     frame.origin.y = (self.frame.size.height / (-2)) + yCentre;
+    self.frame = frame;
 }
 
 - (void)moveViewXBy:(CGFloat)xDelta
